@@ -1,28 +1,21 @@
 package fr.everydaysapps.marvelsuperheroes;
 
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import javax.inject.Inject;
 
 import fr.everydaysapps.marvelsuperheroes.application.AppController;
 import fr.everydaysapps.marvelsuperheroes.application.builder.AppComponent;
 import fr.everydaysapps.marvelsuperheroes.models.Heroes;
 import fr.everydaysapps.marvelsuperheroes.utils.rx.RxSchedulers;
-import retrofit2.Retrofit;
 import rx.Subscriber;
 import rx.Subscription;
-import rx.functions.Action1;
-import rx.subscriptions.CompositeSubscription;
 import timber.log.Timber;
 
 public class MainActivity extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
