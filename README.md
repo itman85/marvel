@@ -3,7 +3,8 @@
 Android simple App that show you how to use Dagger 2 to inject MVP layers (Model-View-Presenter) into each Activity/Screen of the app .
 
 #########
-In this project there are some useful library:
+
+In this project there are some useful libraries:
 Leak Canary : a Library from Square that analyse the memory of your App and notifiy you whenever a leak happens, it’s easy to set up and it’s really helpful.
 GLide : Image Loading and caching library very useful for loading images from the net especially for listview whith images from internet.
 Timber : Another library from Square which allow you customise your log for Debug and release version .
